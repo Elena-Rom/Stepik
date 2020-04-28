@@ -14,7 +14,7 @@ try:
     x_value = cartinka.get_attribute ("valuex")
     def calc(x):
         return str(math.log(abs(12 * math.sin(int(x)))))
-    print(x_value)
+    #print(x_value)
     y = calc(x_value)
 
 
