@@ -17,7 +17,6 @@ try:
     #print(x_value)
     y = calc(x_value)
 
-
     vvod = browser.find_element_by_id('answer')
     vvod.send_keys(y)
 
